@@ -1,4 +1,9 @@
 
+
+.container{
+    background-image: url('/pattern.png');
+
+}
 .main {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 7px 15px;   /* border: 1px black solid; */
   /* background-color: aliceblue; */
@@ -6,7 +11,6 @@
   margin: 100px auto;
   padding: 50px;
   border-radius: 0 0 10px 10px;
-  background-image: url('/pattern.png');
     background-color: white;
 
 }
