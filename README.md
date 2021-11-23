@@ -1,9 +1,12 @@
 # Thapelo's Portfolio
 This project serves the purpose of expressing who i am, what i believe and value, and 
 hope to achieve and be apart of [SovTech](https://www.sovtech.co.za/) Graduate Programme.
+The please see my [mini-porfolio](https://www.sovtech.co.za).
 
 
-## Getting Started
+
+
+## Running the project on your local machine
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 1. Clone this repository to your local machine.
