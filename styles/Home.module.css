@@ -1,6 +1,7 @@
 
 
 .container{
+    padding-top: 100px;
     background-image: url('/pattern.png');
 
 }
@@ -8,7 +9,7 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 7px 15px;   /* border: 1px black solid; */
   /* background-color: aliceblue; */
   max-width: 960px;
-  margin: 100px auto;
+  margin: 0 auto;
   padding: 50px;
   border-radius: 0 0 10px 10px;
     background-color: white;
