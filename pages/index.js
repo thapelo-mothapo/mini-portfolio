@@ -1,13 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Thapelo's Portfolio</title>
-        <meta name="description" content="Thapelo's mini portfolio for Sovtech Grads Assesment" />
+        <title>Thapelo&apos;s Portfolio</title>
+        <meta name="description" content="Thapelo&apos;s mini portfolio for Sovtech Grads Assesment" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="icon" href="https://www.sovtech.co.za/wp-content/uploads/sites/29/2019/07/sovtech_favicon.png" />
       </Head>
@@ -19,10 +20,9 @@ export default function Home() {
             <img title="Thapelo " src="/profile-img.jpg" alt="Picture of Thapelo" className={styles.profile}/>
 
             <div className={styles.icontent}>
-              <h1>Hi <a href="https://www.sovtech.co.za/" target="_blank" className={styles.brand}>SovTech</a> team</h1>
+              <h1>Hi <a href="https://www.sovtech.co.za/" target="_blank" rel="noreferrer" className={styles.brand}>SovTech</a> team</h1>
               <h2>I am Thapelo.</h2>
-              <p>I enjoy playing the piano, but I am still learning though, <em><a href="/test-tune.wav" target="_blank">hear</a></em> for yourself. </p>
-              <audio src="/test-tune.wav"  ></audio>
+              <p>I enjoy playing the piano, but I am still learning though :)</p>
             </div>
 
         </section>
@@ -44,10 +44,10 @@ export default function Home() {
         </section>
 
         <section className={styles.aboutcontent}>
-          <h2>I need to work @ <a href="https://www.sovtech.co.za/" target="_blank" className={styles.brand}>SovTech</a> because:</h2> 
-          <p>Honestly speaking, I am attracted and sold the most by Sovtech's motto of developing custom solutions. I support and believe in the idea of giving organizations of different sizes a unique identity online as it does make a difference in allowing them to better connect and communicate with their users. This is a motto I can stand behind and help fulfill it.</p>
+          <h2>I need to work @ <a href="https://www.sovtech.co.za/" rel="noreferrer" target="_blank" className={styles.brand}>SovTech</a> because:</h2> 
+          <p>Honestly speaking, I am attracted and sold the most by Sovtech&apos;s motto of developing custom solutions. I support and believe in the idea of giving organizations of different sizes a unique identity online as it does make a difference in allowing them to better connect and communicate with their users. This is a motto I can stand behind and help fulfill it.</p>
 
-          <p>Looking at the Sovtech clients' section there are a lot of familiar brands, most I use daily. This brings a lot of curiosity and excitement when I think about being part of a team that designs and develops systems that help these brands serve us better as consumers of content and products.</p>
+          <p>Looking at the Sovtech clients&apos; section there are a lot of familiar brands, most I use daily. This brings a lot of curiosity and excitement when I think about being part of a team that designs and develops systems that help these brands serve us better as consumers of content and products.</p>
 
           <p>With the above said, I believe being part of the Sovtech team will allow me to grow as a designer/developer, in the process changing my overall world view on designing and developing systems that serve clients and their users better.</p>
 
