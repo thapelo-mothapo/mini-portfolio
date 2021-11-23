@@ -59,7 +59,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-          <small><p>Designed by <a href="/">Thapelo</a></p></small>
+          <small><p>Designed by <a href="#">Thapelo</a></p></small>
       </footer>
     </div>
   )
