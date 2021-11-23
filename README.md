@@ -1,7 +1,7 @@
 # Thapelo's Portfolio
 This project serves the purpose of expressing who i am, what i believe and value, and 
 hope to achieve and be apart of [SovTech](https://www.sovtech.co.za/) Graduate Programme.
-The please see my [mini-porfolio](https://www.sovtech.co.za).
+The please see my [mini-porfolio](https://heuristic-cray-2b9786.netlify.app/).
 
 
 
